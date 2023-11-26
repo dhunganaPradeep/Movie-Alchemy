@@ -15,21 +15,24 @@ recommendations based on user preferences and movie attributes.
 Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourced from The Movie Database (TMDb). Following a DMCA takedown request regarding the original IMDB-based dataset, Kaggle replaced it with this comparable dataset from TMDb, ensuring compliance with terms of use. This dataset provides extensive information about plot, cast, crew, budget, revenues, and more for thousands of films, including full credits for both cast and crew.
 
 ## Project Outputs
-- **Homepage:** ![CHEESE!](/Output/homepage.png)
+- **Homepage :** 
+![CHEESE!](/Output/homepage.png)
   - Image showcasing the homepage of the Movie Recommendation Alchemy app.
 
-- **Genre Selection:** ![CHEESE!](/Output/genre.png)
+- **Genre Selection :** 
+![CHEESE!](/Output/genre.png)
   - Image representing the genre selection process in the app.
 
-- **Final Recommendation:** ![CHEESE!](/Output/final.png)
-  - Image displaying the final movie recommendation provided by Movie Recommendation Alchemy.
+- **Final Recommendation :** 
+![CHEESE!](/Output/final.png)
+  - Image displaying the final movie recommendation provided by Movie Alchemy.
 
 
 ## Code Files
-- **Jupyter Notebook:** [Movie-Alchemy.ipynb](Movie-Alchemy.ipynb)
+- **Jupyter Notebook :** [Movie-Alchemy.ipynb](Movie-Alchemy.ipynb)
   - This notebook contains the code for the recommendation logic and interactive data analysis.
 
-- **Streamlit App:** [main.py](main.py)
+- **Streamlit App :** [main.py](main.py)
   - The Streamlit app integrates the recommendation logic and provides a user-friendly interface for exploring movie recommendations.
 
 ## Collaborators
@@ -65,7 +68,7 @@ Feel free to fork this repository, make modifications, and contribute to the enh
     ```bash
     streamlit run main.py
     ```
-7. Open your web browser and navigate to the provided local address (usually http://localhost:8501) to explore Movie Recommendation Alchemy.
+7. Open your web browser and navigate to the provided local address to explore Movie Alchemy.
 
 ## Jupyter Notebook Setup
 1. Open the Jupyter Notebook using the following command:
