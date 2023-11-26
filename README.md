@@ -1,4 +1,6 @@
-# Movie Alchemy : Movie Recommendation System
+# [Movie Alchemy : Movie Recommendation System](https://moviealchemy.streamlit.app/)
+
+## View it live [Movie Alchemy](https://moviealchemy.streamlit.app/)
 
 ## Overview
 Welcome to Movie Alchemy, that provides accurate and personalized
