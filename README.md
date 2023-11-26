@@ -15,13 +15,13 @@ recommendations based on user preferences and movie attributes.
 Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourced from The Movie Database (TMDb). Following a DMCA takedown request regarding the original IMDB-based dataset, Kaggle replaced it with this comparable dataset from TMDb, ensuring compliance with terms of use. This dataset provides extensive information about plot, cast, crew, budget, revenues, and more for thousands of films, including full credits for both cast and crew.
 
 ## Project Outputs
-- **Homepage:** [homepage.png](/output/homepage.png)
+- **Homepage:** ![CHEESE!](/Output/homepage.png)
   - Image showcasing the homepage of the Movie Recommendation Alchemy app.
 
-- **Genre Selection:** [genre.png](/output/genre.png)
+- **Genre Selection:** ![CHEESE!](/Output/genre.png)
   - Image representing the genre selection process in the app.
 
-- **Final Recommendation:** [final.png](/output/final.png)
+- **Final Recommendation:** ![CHEESE!](/Output/final.png)
   - Image displaying the final movie recommendation provided by Movie Recommendation Alchemy.
 
 
