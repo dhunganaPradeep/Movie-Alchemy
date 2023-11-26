@@ -1,1 +1,78 @@
-# Movie-Alchemy
+# Movie Alchemy : Movie Recommendation System
+
+## Overview
+Welcome to Movie Alchemy, that provides accurate and personalized
+recommendations based on user preferences and movie attributes.
+
+## Technology Used
+### 1. Python - Recommendation Logic
+
+### 2. Streamlit - Frontend Technology + API Integration
+
+### 3. Jupyter Notebook
+
+### 4. Dataset
+Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourced from The Movie Database (TMDb). Following a DMCA takedown request regarding the original IMDB-based dataset, Kaggle replaced it with this comparable dataset from TMDb, ensuring compliance with terms of use. This dataset provides extensive information about plot, cast, crew, budget, revenues, and more for thousands of films, including full credits for both cast and crew.
+
+## Project Outputs
+- **Homepage:** [homepage.png](/output/homepage.png)
+  - Image showcasing the homepage of the Movie Recommendation Alchemy app.
+
+- **Genre Selection:** [genre.png](/output/genre.png)
+  - Image representing the genre selection process in the app.
+
+- **Final Recommendation:** [final.png](/output/final.png)
+  - Image displaying the final movie recommendation provided by Movie Recommendation Alchemy.
+
+
+## Code Files
+- **Jupyter Notebook:** [Movie-Alchemy.ipynb](Movie-Alchemy.ipynb)
+  - This notebook contains the code for the recommendation logic and interactive data analysis.
+
+- **Streamlit App:** [main.py](main.py)
+  - The Streamlit app integrates the recommendation logic and provides a user-friendly interface for exploring movie recommendations.
+
+## Collaborators
+- [Pradip Dhungana](dhunganapradip.com.np)
+- [Vision Rijal](https://visionrijal.com.np/)
+- [Bishnu Timilsena](https://github.com/BishnuTimilsena)
+
+
+## Contribution
+Feel free to fork this repository, make modifications, and contribute to the enhancement of Movie Alchemy. Your contributions are valuable in making this project even better!
+
+## Setup and Requirements
+1. Ensure you have [Python](https://www.python.org/downloads/) installed on your system.
+2. Clone this repository to your local machine.
+3. Create a virtual environment for the project.
+    ```bash
+    python -m venv venv
+    ```
+4. Activate the virtual environment.
+    - On Windows:
+    ```bash
+    .\venv\Scripts\activate
+    ```
+    - On macOS and Linux:
+    ```bash
+    source venv/bin/activate
+    ```
+5. Install the required packages using the provided `requirements.txt`.
+    ```bash
+    pip install -r requirements.txt
+    ```
+6. Run the Streamlit app.
+    ```bash
+    streamlit run main.py
+    ```
+7. Open your web browser and navigate to the provided local address (usually http://localhost:8501) to explore Movie Recommendation Alchemy.
+
+## Jupyter Notebook Setup
+1. Open the Jupyter Notebook using the following command:
+    ```bash
+    jupyter notebook Movie-Alchemy.ipynb
+    ```
+2. Run the notebook cells to execute the recommendation logic and generate the necessary outputs.
+3. Save the trained model as a Pickle (pkl) file for later use in the Streamlit app.
+
+Happy exploring!
