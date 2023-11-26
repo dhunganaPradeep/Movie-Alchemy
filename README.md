@@ -20,8 +20,9 @@ Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourc
   - Image showcasing the homepage of the Movie Recommendation Alchemy app.
 
 - **Genre Selection :** 
-![CHEESE!](/Output/genre.png)
+
   - Image representing the genre selection process in the app.
+  ![CHEESE!](/Output/genre.png)
 
 - **Final Recommendation :** 
 ![CHEESE!](/Output/final.png)
