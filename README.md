@@ -36,15 +36,6 @@ Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourc
 - **Streamlit App :** [main.py](main.py)
   - The Streamlit app integrates the recommendation logic and provides a user-friendly interface for exploring movie recommendations.
 
-## Collaborators
-- [Pradip Dhungana](dhunganapradip.com.np)
-- [Vision Rijal](https://visionrijal.com.np/)
-- [Bishnu Timilsena](https://github.com/BishnuTimilsena)
-
-
-## Contribution
-Feel free to fork this repository, make modifications, and contribute to the enhancement of Movie Alchemy. Your contributions are valuable in making this project even better!
-
 ## Setup and Requirements
 1. Ensure you have [Python](https://www.python.org/downloads/) installed on your system.
 2. Clone this repository to your local machine.
@@ -78,5 +69,14 @@ Feel free to fork this repository, make modifications, and contribute to the enh
     ```
 2. Run the notebook cells to execute the recommendation logic and generate the necessary outputs.
 3. Save the trained model as a Pickle (pkl) file for later use in the Streamlit app.
+
+## Collaborators
+- [Pradip Dhungana](dhunganapradip.com.np)
+- [Vision Rijal](https://visionrijal.com.np/)
+- [Bishnu Timilsena](https://github.com/BishnuTimilsena)
+
+
+## Contribution
+Feel free to fork this repository, make modifications, and contribute to the enhancement of Movie Alchemy. Your contributions are valuable in making this project even better!
 
 Happy exploring!
