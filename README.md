@@ -7,15 +7,15 @@ Welcome to Movie Alchemy, a fourth-semester software engineering project. Powere
 
 ## Technology Used
 ### 1. Python 
-    - Recommendation Logic
+- Recommendation Logic
 
 ### 2. Streamlit 
-    - Frontend Technology + API Integration
+- Frontend Technology + API Integration
 
 ### 3. Jupyter Notebook
 
 ### 4. Dataset
-    - Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourced from The Movie Database (TMDb). Following a DMCA takedown request regarding the original IMDB-based dataset, Kaggle replaced it with this comparable dataset from TMDb, ensuring compliance with terms of use. This dataset provides extensive information about plot, cast, crew, budget, revenues, and more for thousands of films, including full credits for both cast and crew.
+- Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourced from The Movie Database (TMDb). Following a DMCA takedown request regarding the original IMDB-based dataset, Kaggle replaced it with this comparable dataset from TMDb, ensuring compliance with terms of use. This dataset provides extensive information about plot, cast, crew, budget, revenues, and more for thousands of films, including full credits for both cast and crew.
 
 ## Project Outputs
 - **Homepage :** 
