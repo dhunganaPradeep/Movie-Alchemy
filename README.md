@@ -3,18 +3,19 @@
 ## View it live [Movie Alchemy](https://moviealchemy.streamlit.app/)
 
 ## Overview
-Welcome to Movie Alchemy, that provides accurate and personalized
-recommendations based on user preferences and movie attributes.
+Welcome to Movie Alchemy, a fourth-semester software engineering project. Powered by Python and Streamlit, it offers personalized movie recommendations using the TMDB dataset. Explore genres, get suggestions, and dive into the magic of Movie Alchemy! 
 
 ## Technology Used
-### 1. Python - Recommendation Logic
+### 1. Python 
+    - Recommendation Logic
 
-### 2. Streamlit - Frontend Technology + API Integration
+### 2. Streamlit 
+    - Frontend Technology + API Integration
 
 ### 3. Jupyter Notebook
 
 ### 4. Dataset
-Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourced from The Movie Database (TMDb). Following a DMCA takedown request regarding the original IMDB-based dataset, Kaggle replaced it with this comparable dataset from TMDb, ensuring compliance with terms of use. This dataset provides extensive information about plot, cast, crew, budget, revenues, and more for thousands of films, including full credits for both cast and crew.
+    - Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourced from The Movie Database (TMDb). Following a DMCA takedown request regarding the original IMDB-based dataset, Kaggle replaced it with this comparable dataset from TMDb, ensuring compliance with terms of use. This dataset provides extensive information about plot, cast, crew, budget, revenues, and more for thousands of films, including full credits for both cast and crew.
 
 ## Project Outputs
 - **Homepage :** 
@@ -29,14 +30,6 @@ Our project is enriched with data from Kaggle's "TMDB 5000 Movie Dataset," sourc
 - **Final Recommendation :** 
 ![CHEESE!](/Output/final.png)
   - Image displaying the final movie recommendation provided by Movie Alchemy.
-
-
-## Code Files
-- **Jupyter Notebook :** [Movie-Alchemy.ipynb](Movie-Alchemy.ipynb)
-  - This notebook contains the code for the recommendation logic and interactive data analysis.
-
-- **Streamlit App :** [main.py](main.py)
-  - The Streamlit app integrates the recommendation logic and provides a user-friendly interface for exploring movie recommendations.
 
 ## Setup and Requirements
 1. Ensure you have [Python](https://www.python.org/downloads/) installed on your system.
