@@ -1,7 +1,5 @@
 # [Movie Alchemy : Movie Recommendation System](https://moviealchemy.streamlit.app/)
 
-## View it live [here.](https://moviealchemy.streamlit.app/)
-
 ## Overview
 Welcome to Movie Alchemy, a fourth-semester software engineering project. Powered by Python and Streamlit, it offers personalized movie recommendations using the TMDB dataset. Explore genres, get suggestions, and dive into the magic of Movie Alchemy! 
 
