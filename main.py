@@ -5,7 +5,7 @@ import base64
 import time
 from random import randint
 
-st.set_page_config(page_title='MOVIE ALCHEMY', page_icon=':smiley:')
+st.set_page_config(page_title='MOVIE ALCHEMY', page_icon=':smiley:',layout='wide')
 
 # Load data for the app
 movies = pickle.load(open('movie_list.pkl', 'rb'))
@@ -36,7 +36,16 @@ def recommend(movie):
 
 # Streamlit app
 st.title('Movie Alchemy')
-
+st.markdown(
+    """
+    <style>
+        section[data-testid="stSidebar"] {
+            width: 100px !important; # Set the width to your desired value
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 # Sidebar for selecting genre
 genre_list = sorted(movies['genres'].explode().astype(str).unique())
 selected_genre = st.sidebar.selectbox(
@@ -70,7 +79,7 @@ if show_recommendations and selected_movie:
         st.write("No recommendations found.")
 else:
     # Display the "You may Like" and "Featured Movies" sections
-    num_posters = 4
+    num_posters = 7
 
     st.header('You may Like')
     with st.container():
@@ -84,7 +93,7 @@ else:
                 movie = movies.iloc[i]
                 poster_url = fetch_poster(movie['movie_id'])
                 columns[i].write(
-                    f'<img src="{poster_url}" width="170" style="cursor: pointer; margin-bottom: 20px;" class="poster">'
+                    f'<img src="{poster_url}" width="200" style="cursor: pointer; margin-bottom: 20px;" class="poster">'
                     , unsafe_allow_html=True)
 
     # Display the "Featured Movies" section
