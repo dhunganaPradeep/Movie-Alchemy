@@ -68,33 +68,33 @@ if show_recommendations and selected_movie:
             st.write("-------------------------------")
     else:
         st.write("No recommendations found.")
+else:
+    # Display the "You may Like" and "Featured Movies" sections
+    num_posters = 4
 
-# Movie Posters
-st.header('You may Like')
-num_posters = 4
+    st.header('You may Like')
+    with st.container():
+        poster_container = st.container()
 
-with st.container():
-    poster_container = st.container()
+        # Open a new row
+        with poster_container:
+            columns = st.columns(num_posters)
 
-    # Open a new row
-    with poster_container:
-        columns = st.columns(num_posters)
+            for i in range(num_posters):
+                movie = movies.iloc[i]
+                poster_url = fetch_poster(movie['movie_id'])
+                columns[i].write(
+                    f'<img src="{poster_url}" width="170" style="cursor: pointer; margin-bottom: 20px;" class="poster">'
+                    , unsafe_allow_html=True)
 
-        for i in range(num_posters):
-            movie = movies.iloc[i]
-            poster_url = fetch_poster(movie['movie_id'])
-            columns[i].write(
-                f'<img src="{poster_url}" width="170" style="cursor: pointer; margin-bottom: 20px;" class="poster">'
-                , unsafe_allow_html=True)
+    # Display the "Featured Movies" section
+    st.header('Featured Movies')
+    featured_movies = ['Inception', 'The Shawshank Redemption', 'The Dark Knight', 'Pulp Fiction', 'Fight Club']
 
-# Featured movies section
-st.header('Featured Movies')
-featured_movies = ['Inception', 'The Shawshank Redemption', 'The Dark Knight', 'Pulp Fiction', 'Fight Club']
-
-for movie_title in featured_movies:
-    movie_details = movies[movies['title'] == movie_title].iloc[0]
-    st.write(f"## {movie_title}")
-    st.image(fetch_poster(movie_details['movie_id']), width=200)
-    st.write(f"**Overview:** {' '.join(movie_details['overview'])}")
-    st.write(f"**Cast:** {', '.join(movie_details['cast'])}")
-    st.write("---")
+    for movie_title in featured_movies:
+        movie_details = movies[movies['title'] == movie_title].iloc[0]
+        st.write(f"## {movie_title}")
+        st.image(fetch_poster(movie_details['movie_id']), width=200)
+        st.write(f"**Overview:** {' '.join(movie_details['overview'])}")
+        st.write(f"**Cast:** {', '.join(movie_details['cast'])}")
+        st.write("---")
